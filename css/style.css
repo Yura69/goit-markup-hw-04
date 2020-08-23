@@ -9,6 +9,7 @@ body{
 
 
 :root {
+  --background-color: #F5F4FA;
   --title-text-color: #212121;
   --main-text-color: #757575;
   --accent-color: #2196f3;
@@ -169,7 +170,7 @@ margin-right: 50px;
   height: 120px;
   align-items: center ;
   justify-content: center;
-  background-color: #F5F4FA;
+  background-color: var(--background-color);
   margin-bottom: 30px;
   border-radius: 4px;
 }
@@ -221,6 +222,9 @@ margin-right: 50px;
 }
 
 /* Our teem */
+.our-teem.section{
+background-color: var(--background-color);
+}
 .tm-photo {
   margin-bottom: 30px;
 }
@@ -231,6 +235,7 @@ margin-right: 50px;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 padding-bottom: 24px;
+background-color: #fff;
 }
 .people-our-team .item:not(:last-child){
   margin-right: 30px;
@@ -255,6 +260,7 @@ padding-bottom: 24px;
   border-radius: 50%;
   color: #AFB1B8;
 }
+.people-our-team .item .item-sn .link-sn:focus,
 .people-our-team .item .item-sn .link-sn:hover {
   background-color: var(--accent-color);
   color:var(--white);
@@ -313,6 +319,7 @@ padding-bottom: 24px;
   align-items: center ;
   justify-content: center;
 }
+.logo-clien-link:focus,
 .logo-clien-link:hover {
   color: var(--accent-color);
   border-color: var(--accent-color);
@@ -348,7 +355,7 @@ padding-bottom: 24px;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-  background: #f5f4fa;
+  background: var(--background-color);
   border-radius: 4px;
 }
 
@@ -444,6 +451,7 @@ padding-bottom: 24px;
 .ftr-sn-list .item .ft-link-sn .link-icon-sn{
   fill: currentColor;
 }
+.ftr-sn-list .item .ft-link-sn:focus,
 .ftr-sn-list .item .ft-link-sn:hover{
   background-color: var(--accent-color);
 }
